@@ -17,7 +17,7 @@ const SidebarView = props => {
       <div id="trending">
         <span id="trendingheader">
           <h4>Trending</h4>
-          <InfoPopup content={<span>The trend score is based on the amount of mentions of a particular symbol across a multitude of subreddits.</span>}/>
+          <InfoPopup content={<span>The trend score is based on the number of mentions of a particular symbol across a multitude of subreddits.</span>}/>
         </span>
         <span className="title stockSidebar">
           <h5 className="ticker" style={{cursor: "auto"}}>Symbol</h5>
@@ -50,5 +50,6 @@ const SidebarView = props => {
     </div>
   );
 }
+
 
 export default SidebarView
